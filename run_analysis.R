@@ -110,3 +110,7 @@ colnames(sub_data) <- column_names
 # For each subset of data frame apply mean and combine results into data frame = ddply
 avg_data <- ddply(sub_data, c("activity_ID", "activity","subject_ID"), numcolwise(mean))
 View(avg_data)
+
+
+# Write the data into a file
+write.table(avg_data ,file = "tidydata.txt")
