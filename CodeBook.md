@@ -1,15 +1,15 @@
 # C3W4 Getting and Cleaning data project
 
 # Output (avg_data)
-The script run_analysis.R will produce a data frame called "avg_data" that will contain the tidy data
+The script run_analysis.R will produce a data frame called "avg_data" that will contain tidy data.
 Each row of "avg_data" contains averaged data from each subject and each activity from features that contain:
 1. Mean value (mean)
 2. Standard deviation (std)
 
 # Variables (columns in avg_data)
- [1] "activity_ID"
- [2] "activity" (related to activity_ID: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING)
- [3] "subject_ID"
+ [1] "activity_ID".
+ [2] "activity" (related to activity_ID: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING).
+ [3] "subject_ID".
  [4] "TimeBodyAcceleration-Mean-X"                              
  [5] "TimeBodyAcceleration-Mean-Y"                              
  [6] "TimeBodyAcceleration-Mean-Z"                              
