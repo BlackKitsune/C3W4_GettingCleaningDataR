@@ -1,5 +1,22 @@
 # C3W4 Getting and Cleaning data project
 
+## run_analysis.R will follow the next steps
+
+### 1. Merges the training and test sets to create one data set
+Creates a "data" data set with the combined data from train.txt and test.txt files
+
+### 2. Extract measurements on the mean and standard deviation for each measurement
+Produces a "sub_data" data set with only the variables that calculates mean or standard deviation
+
+### 3. Uses descriptive activity names to name the activities in the data set
+Adds the information from features, activity_labels and subject to the sub_data data set
+
+### 4. Appropriately labels the data set with descriptive variable names
+Cleans the variables names to descriptive variables names in sub_data data set
+
+### 5. Creates a second data set with the average of each variable for each activity and each subject.
+Generates a subset "avg_data" of sub_data with the average values of each varaible as a function of activity and subject.
+
 # Output (avg_data)
 The script run_analysis.R will produce a data frame called "avg_data" that will contain tidy data.
 Each row of "avg_data" contains averaged data from each subject and each activity from features that contain:
